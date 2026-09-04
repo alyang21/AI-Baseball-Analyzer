@@ -1,0 +1,26 @@
+Index(['id', 'name', 'swings_competitive', 'percent_swings_competitive',
+       'contact', 'avg_bat_speed', 'hard_swing_rate',
+       'squared_up_per_bat_contact', 'squared_up_per_swing',
+       'blast_per_bat_contact', 'blast_per_swing', 'swing_length', 'swords',
+       'batter_run_value', 'whiffs', 'whiff_per_swing', 'batted_ball_events',
+       'batted_ball_event_per_swing', 'season'],
+      dtype='str')
+       id              name  ...  batted_ball_event_per_swing  season
+0  665833       Cruz, Oneil  ...                     0.331296    2024
+1  691406  Caminero, Junior  ...                     0.391743    2024
+2  691023    Walker, Jordan  ...                     0.336735    2024
+3  666176         Adell, Jo  ...                     0.343023    2024
+4  656941   Schwarber, Kyle  ...                     0.338313    2024
+
+[5 rows x 19 columns]
+                  id  ...       season
+count     452.000000  ...   452.000000
+mean   654523.915929  ...  2024.500000
+std     49399.568396  ...     0.500554
+min    457705.000000  ...  2024.000000
+25%    643446.000000  ...  2024.000000
+50%    666639.500000  ...  2024.500000
+75%    680757.000000  ...  2025.000000
+max    808982.000000  ...  2025.000000
+
+[8 rows x 18 columns]
